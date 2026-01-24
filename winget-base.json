@@ -50,12 +50,6 @@
         },
         {
           "PackageIdentifier": "Rime.Weasel"
-        },
-        {
-          "PackageIdentifier": "Hashicorp.Vagrant"
-        },
-        {
-          "PackageIdentifier": "Oracle.VirtualBox"
         }
       ],
       "SourceDetails": {

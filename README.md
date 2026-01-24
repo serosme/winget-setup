@@ -1,4 +1,16 @@
-# WinGet
+# winget-setup
+
+## 文档
+
+[WinGet](https://learn.microsoft.com/zh-cn/windows/package-manager/winget/)
+
+## 快速开始
+
+导入
+
+```shell
+irm https://script.seros.me/restore-winget | iex
+```
 
 ## 配置
 

@@ -9,7 +9,7 @@ $Backups = @(
 )
 
 try {
-    Write-Host "Available winget backups:`n"
+    Write-Host "Available Winget backups:`n"
 
     for ($i = 0; $i -lt $Backups.Count; $i++) {
         Write-Host "[$($i + 1)] $($Backups[$i])"
@@ -26,16 +26,16 @@ try {
     $SelectedBackup = $Backups[$choice - 1]
     $BackupUrl = "$BaseUrl/$SelectedBackup"
 
-    Write-Host "`nDownloading winget backup..."
+    Write-Host "`nDownloading Winget backup..."
     Invoke-WebRequest $BackupUrl -OutFile $TempFile
 
-    Write-Host "Importing winget backup..."
+    Write-Host "Importing Winget backup..."
     winget import -i $TempFile
 
     Write-Host "Cleaning up..."
     Remove-Item $TempFile -Force
 
-    Write-Host "winget restore completed successfully."
+    Write-Host "Winget restore completed successfully."
 }
 catch {
     Write-Error "Restore failed: $_"

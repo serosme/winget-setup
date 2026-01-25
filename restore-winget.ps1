@@ -5,7 +5,8 @@ $TempFile = Join-Path $env:TEMP "winget-backup.json"
 
 $Backups = @(
     "winget-base.json",
-    "winget-dev.json"
+    "winget-dev.json",
+    "winget-game.json"
 )
 
 try {

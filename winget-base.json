@@ -50,6 +50,9 @@
         },
         {
           "PackageIdentifier": "Rime.Weasel"
+        },
+        {
+          "PackageIdentifier": "WinFsp.WinFsp"
         }
       ],
       "SourceDetails": {

@@ -50,9 +50,6 @@
         },
         {
           "PackageIdentifier": "Rime.Weasel"
-        },
-        {
-          "PackageIdentifier": "OpenListTeam.OpenListDesktop"
         }
       ],
       "SourceDetails": {

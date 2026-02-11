@@ -46,9 +46,6 @@
           "PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.8"
         },
         {
-          "PackageIdentifier": "Microsoft.PowerToys"
-        },
-        {
           "PackageIdentifier": "Rime.Weasel"
         }
       ],
